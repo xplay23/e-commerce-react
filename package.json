@@ -1,0 +1,27 @@
+{
+  "name": "nord-react-store",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test",
+    "build:deploy": "npm run build && node scripts/prepare-deploy.js",
+    "format": "prettier --write src scripts backend vite.config.js index.html package.json .prettierrc.json",
+    "format:check": "prettier --check src scripts backend vite.config.js index.html package.json .prettierrc.json"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0"
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.25.0",
+    "esbuild": "^0.28.2",
+    "prettier": "^3.9.9",
+    "vite": "^7.1.2"
+  }
+}

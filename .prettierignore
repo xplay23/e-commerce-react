@@ -1,0 +1,6 @@
+﻿node_modules/
+dist/
+deploy/
+package-lock.json
+.env*
+backend/.env*
